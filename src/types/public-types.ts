@@ -20,6 +20,8 @@ export interface Task {
    * From 0 to 100
    */
   progress: number;
+  data?: object,
+  customStyles?: string,
   styles?: {
     backgroundColor?: string;
     backgroundSelectedColor?: string;
